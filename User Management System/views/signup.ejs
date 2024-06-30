@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/stylesheets/signup.css">
+</head>
+<body>
+    <div id="main">
+        <div id="container">
+            <h1>Instagram SignUp</h1>
+            <form action="/api/auth/signup" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter Your Name" name="name">
+                    <label for="username">UserName</label>
+                    <input type="text" id="user" placeholder="Enter Your UserName" name="username">
+    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter Your Email" name="email">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter Your Password" name="password">
+                    <label for="nio">Bio</label>
+                    <input type="text" id="nio" placeholder="Enter Your Bio" name="bio">
+                    <button type="submit">Submit</button>
+            </form>
+            <a href="/login">Login</a>
+        </div>
+    </div>
+</body>
+</html>
